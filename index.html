@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="chat-container d-flex flex-column">
+        <div class="p-3 bg-primary text-white text-center">Board Game Chat</div>
+        <div id="chat-box" class="chat-box d-flex flex-column p-3"></div>
+        <div class="p-2 border-top bg-light d-flex">
+            <input type="text" id="message" class="form-control me-2" placeholder="Ask about any games...">
+            <button class="btn btn-primary" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
